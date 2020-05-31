@@ -173,7 +173,7 @@ defmodule Covider.ClickhouseBulk do
 
   defp config do
     %{hostname: hostname, port: port, database: database} =
-      Application.get_env(:Covider, Covider.Repo, []) |> Map.new()
+      Application.get_env(:covider, Covider.Repo, []) |> Map.new()
 
     {"http://#{hostname}:#{port}/", database}
   end

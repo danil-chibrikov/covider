@@ -56,4 +56,4 @@ RUN chown -R app: ./prod
 USER app
 
 # Run the Phoenix app
-CMD ["./prod/rel/Covider/bin/Covider", "start"]
+CMD ["./prod/rel/covider/bin/covider", "start"]

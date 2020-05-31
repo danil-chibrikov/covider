@@ -10,12 +10,12 @@ by adding `Covider` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:Covider, "~> 0.1.0"}
+    {:covider, "~> 0.1.0"}
   ]
 end
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/Covider](https://hexdocs.pm/Covider).
+be found at [https://hexdocs.pm/covider](https://hexdocs.pm/covider).
 
