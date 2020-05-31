@@ -7,7 +7,7 @@ ENV MIX_ENV=prod \
 
 # Fetch the latest version of Elixir (once the 1.9 docker image is available you won't have to do this)
 RUN set -xe \
-  && ELIXIR_DOWNLOAD_URL="https://github.com/elixir-lang/elixir/archive/v1.9.4.tar.gz" \
+  && ELIXIR_DOWNLOAD_URL="https://github.com/elixir-lang/elixir/archive/v1.9.0-rc.0.tar.gz" \
   && ELIXIR_DOWNLOAD_SHA256="fa019ba18556f53bfb77840b0970afd116517764251704b55e419becb0b384cf" \
   && curl -fSL -o elixir-src.tar.gz $ELIXIR_DOWNLOAD_URL \
   && echo "$ELIXIR_DOWNLOAD_SHA256  elixir-src.tar.gz" | sha256sum -c - \
