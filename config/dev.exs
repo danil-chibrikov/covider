@@ -1,6 +1,6 @@
 import Config
 
-config :Covider, Covider.Repo,
+config :covider, Covider.Repo,
   adapter: ClickhouseEcto,
   hostname: "hcr3.wirknode.com",
   port: 8124,
